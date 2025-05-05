@@ -8,7 +8,7 @@ function Event(){
     const hour = date.getHours();
 
     useEffect(()=>{
-        if(hour>=0 && hour<12){
+        if(hour>=3 && hour<12){
             setEvent('morning');
         }
         else if(hour>=12 && hour<17){
