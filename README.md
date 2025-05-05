@@ -1,12 +1,57 @@
-# React + Vite
+## 📱 MyPhone UI/UX – React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated mobile lock screen built with **React.js** and **Tailwind CSS**, simulating fingerprint authentication, passcode unlock, torch and camera toggles, and swipe gestures – all inside the browser.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🚀 Features
 
-## Expanding the ESLint configuration
+* 🔐 **Fingerprint Authentication UI** with glow animation
+* 🔢 **Passcode Unlock Screen** with dot indicators
+* 🔦 **Torch Toggle Simulation** (with experimental native support for Android Chrome)
+* 📷 **Camera Mode Simulation** with countdown and swipe-to-close gesture
+* 🔄 **Animated UI** – smooth transitions, rotating gradient borders
+* 🌙 **Dark Mode Inspired Design** mimicking real phone lock screens
+* 📱 **Mobile-first UX** – swipe gestures, fullscreen-like layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🛠️ Tech Stack
+
+* **React.js** (Vite)
+* **Tailwind CSS** for styling and animations
+* **React Icons** for system-like icons
+* **Custom CSS** for advanced animations (conic gradients, shadows, etc.)
+* 
+---
+
+### 📋 How to Run Locally
+
+```bash
+git clone https://github.com/iamjagadeesan/MyPhone.git
+cd MyPhone
+npm install
+npm run dev
+```
+
+---
+
+### 📌 Upcoming Features (Suggestions)
+
+* ✅ Real-time Date & Time
+* 🔒 Swipe-Up Unlock Screen
+* 🎨 Theme Switcher (Light/Dark)
+* 🔊 Sound Effects on Unlock
+* 🔋 Battery Indicator UI
+
+---
+
+### 🤝 Contributions
+
+Feel free to fork, enhance, or suggest new features. Pull requests are welcome!
+
+---
+
+### 🧑‍💻 Author
+
+**Jagadeesan** – [@iamjagadeesan](https://linkedin.com/in/iamjagadeesan)
